@@ -6,7 +6,7 @@ let attempts = 1;
 function showTextOnScreen(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
-    responsiveVoice.speak(texto, 'US English Male', {rate: 1.2});
+    responsiveVoice.speak(texto, 'US English Male', {rate: 1});
 }
 
 function showInitialMessage() {
